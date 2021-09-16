@@ -16,7 +16,6 @@
 * [JEP 217: Annotations Pipeline 2.0](https://openjdk.java.net/jeps/217)
 * [JEP 219: Datagram Transport Layer Security (DTLS)](https://openjdk.java.net/jeps/219)
 * [JEP 221: Simplified Doclet API](https://openjdk.java.net/jeps/221)
-* [JEP 223: New Version-String Scheme](https://openjdk.java.net/jeps/223)
 * [JEP 224: HTML5 Javadoc](https://openjdk.java.net/jeps/224)
 * [JEP 225: Javadoc Search](https://openjdk.java.net/jeps/225)
 * [JEP 226: UTF-8 Property Files](https://openjdk.java.net/jeps/226)

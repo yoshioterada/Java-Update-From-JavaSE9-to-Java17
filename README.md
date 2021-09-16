@@ -11,6 +11,7 @@
 * [JEP 248: Make G1 the Default Garbage Collector](https://openjdk.java.net/jeps/248)
 * [JEP 259: Stack-Walking API](https://openjdk.java.net/jeps/259)
 * [JEP 269: Convenience Factory Methods for Collections](https://openjdk.java.net/jeps/269)
+* [JEP 223: New Version-String Scheme](https://openjdk.java.net/jeps/223)
 
 #### モジュール関連
 
@@ -25,6 +26,14 @@
 ### その他
 
 * [Other Enhancements](./java9/others.md)
+* Removed tools.jar
+    - Attach API, Compiler API, JavaDoc API, etc
+* Removed Java DB (Aparch Derby)
+* Removed ***endorsed*** and ***extension*** directory
+    - $JAVA_HOME/lib/endorsed
+    - $JAVA_HOME/jre/lib/ext
+* Class Loading implementation changed to support module
+
 
 ## Java SE 10 
 
@@ -40,7 +49,11 @@
 ### その他
 
 * [Other Enhancements](./java10/others.md)
-
+* Docker Awareness (on by default)
+    - [Improved Docker Container Integration with Java 10](https://blog.docker.com/2018/04/improved-docker-container-integration-with-java-10)
+    - -XX:-UseContainerSupport  
+    VMで自動コンテナ検出サポートが提供されるようになり、これによって、Dockerコンテナ内で実行されるJavaプロセスで使用可能なメモリーの容量およびプロセッサの数をVMで決定できるようになりました。この情報はシステム・リソースを割り当てるために使用されます。このサポートはLinux x64プラットフォームでのみ使用できます。サポートされている場合、このフラグのデフォルトはtrueで、コンテナのサポートはデフォルトで有効になります。これは、-XX:-UseContainerSupportを使用して無効にできます。
+* [GraalVM](https://www.graalvm.org/) as experimental in this time
 
 ## Java SE 11
 
@@ -48,10 +61,17 @@
 
 ### 代表的なアップデート機能
 
+* [JEP 181: Nest-Based Access Control](https://openjdk.java.net/jeps/181)
 * [JEP 321: HTTP Client](https://openjdk.java.net/jeps/321)
 * [JEP 328: Flight Recorder](https://openjdk.java.net/jeps/328)
 * [JEP 320: Remove the Java EE and CORBA Modules](https://openjdk.java.net/jeps/320)
 * [JEP 335: Deprecate the Nashorn JavaScript Engine](https://openjdk.java.net/jeps/335)
+* [JEP 330: Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330)
+* [JEP 331: Low-Overhead Heap Profiling](https://openjdk.java.net/jeps/331)
+* [JEP 332: Transport Layer Security (TLS) 1.3](https://openjdk.java.net/jeps/332)
+* [JEP 318: Epsilon: A No-Op Garbage Collector](https://openjdk.java.net/jeps/318)
+* [JEP 333: ZGC: A Scalable Low-Latency Garbage Collector(Experimental)](https://openjdk.java.net/jeps/333)
+
 
 ### その他
 
@@ -190,7 +210,7 @@ h
     - [JDK 14 リリースの大幅な変更](https://docs.oracle.com/en/java/javase/17/migrate/significant-changes-jdk-release.html#GUID-6B103F24-CA12-4645-A37C-7AB9E7EF1878)
     - [JDK 13 リリースの大幅な変更](https://docs.oracle.com/en/java/javase/17/migrate/significant-changes-jdk-release.html#GUID-E2EE0BC5-F0AA-4F83-A344-B9D5E424E040)
     - [JDK 12 リリースの大幅な変更](https://docs.oracle.com/en/java/javase/17/migrate/significant-changes-jdk-release.html#GUID-7D4768D0-738C-4554-BAC5-A8DBBEFA3857)
-    - [JDK 11 リリースの大幅な変更](https://docs.oracle.com/en/java/javase/17/migrate/significant-changes-jdk-release.html#GUID-3BDB37C7-DF0C-44C7-AF3C-409F846DFF99)
+    - [JDK 11 リリースの大幅な変更](https://docs.oracle.com/en/java/javase/17/migrate/significant-changes-jdk-release.html#GUID-7D4768D0-738C-4554-BAC5-A8DBBEFA3857)
 
 * セキュリティ更新プログラム (Security Updates)
     - [JDK 17 のセキュリティ更新プログラム](https://docs.oracle.com/en/java/javase/17/migrate/security-updates.html#GUID-0A1C677D-F9A3-4B61-8D09-EFB793859789)

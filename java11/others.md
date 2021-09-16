@@ -1,16 +1,9 @@
 # Other Enhancements
 
-* [JEP 181: Nest-Based Access Control](https://openjdk.java.net/jeps/181)
 * [JEP 309: Dynamic Class-File Constants](https://openjdk.java.net/jeps/309)
 * [JEP 315: Improve Aarch64 Intrinsics](https://openjdk.java.net/jeps/315)
-* [JEP 318: Epsilon: A No-Op Garbage Collector](https://openjdk.java.net/jeps/318)
-* [JEP 320: Remove the Java EE and CORBA Modules](https://openjdk.java.net/jeps/320)
 * [JEP 323: Local-Variable Syntax for Lambda Parameters](https://openjdk.java.net/jeps/323)
 * [JEP 324: Key Agreement with Curve25519 and Curve448](https://openjdk.java.net/jeps/324)
 * [JEP 327: Unicode 10](https://openjdk.java.net/jeps/327)
 * [JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms](https://openjdk.java.net/jeps/329)
-* [JEP 330: Launch Single-File Source-Code Programs](https://openjdk.java.net/jeps/330)
-* [JEP 331: Low-Overhead Heap Profiling](https://openjdk.java.net/jeps/331)
-* [JEP 332: Transport Layer Security (TLS) 1.3](https://openjdk.java.net/jeps/332)
-* [JEP 333: ZGC: A Scalable Low-Latency Garbage Collector(Experimental)](https://openjdk.java.net/jeps/333)
 * [JEP 336: Deprecate the Pack200 Tools and API](https://openjdk.java.net/jeps/336)
