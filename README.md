@@ -7,6 +7,7 @@
 ### 代表的なアップデート機能
 
 * [JEP 193: Var Handles](https://openjdk.java.net/jeps/193)
+    - [Variable Handles についてのまとめ (2021/10/3 Added by 寺田)](./java9/VarHandles.md)
 * [JEP 222: JShell: The Java Shell (Read-Eval-Print Loop)](https://openjdk.java.net/jeps/222)
 * [JEP 248: Make G1 the Default Garbage Collector](https://openjdk.java.net/jeps/248)
 * [JEP 259: Stack-Walking API](https://openjdk.java.net/jeps/259)
