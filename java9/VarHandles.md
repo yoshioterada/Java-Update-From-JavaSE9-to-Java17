@@ -278,8 +278,8 @@ VarHandle は異なるアクセスモードで変数への読み取り、書き�
 |  アクセスモード  |  対応するメソッド |　ATOMIC か否か  |
 | ---- | ---- | ---- |
 |GET_AND_ADD| getAndAdd()|ATOMIC|
-|GET_AND_ADD_ACQUIRE|| getAndAddAcquire()|ATOMIC|
-|GET_AND_ADD_RELEASE|| getAndAddRelease()|ATOMIC|
+|GET_AND_ADD_ACQUIRE|getAndAddAcquire()|ATOMIC|
+|GET_AND_ADD_RELEASE|getAndAddRelease()|ATOMIC|
 
 * ビット単位でのアトミック更新アクセスモード
 
